@@ -15,6 +15,7 @@ func main() {
 	var num int
 	fmt.Println("Try one number:")
 	fmt.Scanln(&num)
+	fmt.Scanln(&num)
 
 	fmt.Println(reflect.TypeOf(num_rand))
 
